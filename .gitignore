@@ -1,0 +1,22 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.claude/
+.DS_Store
+
+# Local-only: assistant notes, retired monolith, one-off experiments
+CLAUDE.md
+pipeline-blueprint.md
+skills/
+archive/
+test_digest_styles.py
+test_consolidated_styles.py
+
+# Generated output: keep only the sample brief
+outputs/*
+!outputs/OCT_03_2026.md
+*.log
+briefs.txt
+sample_brief.txt
+brief_economics.txt

@@ -1,0 +1,374 @@
+feeds:
+  # ── North America ──────────────────────────────────────────────────────────
+
+  - outlet: "ABC News"
+    name: "ABC News – US Headlines"
+    region: "US"
+    language: "English"
+    tags: [us, world]
+    source_type: editorial
+    url: "http://feeds.abcnews.com/abcnews/usheadlines"
+
+  - outlet: "CBS News"
+    name: "CBS News – Main"
+    region: "US"
+    language: "English"
+    tags: [us, world]
+    source_type: editorial
+    url: "http://www.cbsnews.com/latest/rss/main"
+
+  - outlet: "New York Times"
+    name: "New York Times – World"
+    region: "US/global"
+    language: "English"
+    tags: [world]
+    source_type: editorial
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+
+  - outlet: "Christian Science Monitor"
+    name: "Christian Science Monitor – USA"
+    region: "US"
+    language: "English"
+    tags: [us, world]
+    source_type: editorial
+    url: "http://rss.csmonitor.com/feeds/usa"
+
+  - outlet: "NBC News"
+    name: "NBC News – Top Stories"
+    region: "US"
+    language: "English"
+    tags: [us, world]
+    source_type: editorial
+    url: "http://feeds.nbcnews.com/feeds/topstories"
+
+  - outlet: "NPR"
+    name: "NPR – Top Stories"
+    region: "US"
+    language: "English"
+    tags: [us, world]
+    source_type: editorial
+    url: "http://www.npr.org/rss/rss.php?id=1001"
+
+  - outlet: "Vox"
+    name: "Vox – Main"
+    region: "US"
+    language: "English"
+    tags: [us, politics]
+    source_type: editorial
+    url: "https://www.vox.com/rss/index.xml"
+
+  - outlet: "ProPublica"
+    name: "ProPublica – Main"
+    region: "US"
+    language: "English"
+    tags: [us, investigative]
+    source_type: editorial
+    url: "http://feeds.propublica.org/propublica/main"
+
+  # ── Europe ─────────────────────────────────────────────────────────────────
+
+  - outlet: "Euronews"
+    name: "Euronews – Top News"
+    region: "Pan-Europe"
+    language: "English"
+    tags: [europe, world]
+    source_type: editorial
+    url: "http://feeds.feedburner.com/euronews/en/home"
+
+  - outlet: "POLITICO Europe"
+    name: "POLITICO Europe – All Content"
+    region: "EU/Europe"
+    language: "English"
+    tags: [europe, politics]
+    source_type: editorial
+    url: "https://www.politico.eu/feed/"
+
+  - outlet: "Brussels Morning"
+    name: "Brussels Morning – EU Politics"
+    region: "EU/Brussels"
+    language: "English"
+    tags: [europe, politics]
+    source_type: editorial
+    url: "https://brusselsmorning.com/feed"
+
+  - outlet: "Deutsche Welle"
+    name: "Deutsche Welle – Top Stories"
+    region: "Germany/Europe"
+    language: "English"
+    tags: [europe, world]
+    source_type: editorial
+    url: "https://rss.dw.com/rdf/rss-en-top"
+
+  - outlet: "BBC News"
+    name: "BBC News – World"
+    region: "UK/global"
+    language: "English"
+    tags: [world]
+    source_type: editorial
+    url: "http://feeds.bbci.co.uk/news/world/rss.xml"
+
+  - outlet: "BBC News"
+    name: "BBC News – Europe"
+    region: "UK/Europe"
+    language: "English"
+    tags: [europe]
+    source_type: editorial
+    url: "http://feeds.bbci.co.uk/news/world/europe/rss.xml"
+
+  - outlet: "The Guardian"
+    name: "The Guardian – World News"
+    region: "UK/global"
+    language: "English"
+    tags: [world]
+    source_type: editorial
+    url: "https://www.theguardian.com/world/rss"
+
+  - outlet: "The Guardian"
+    name: "The Guardian – US Edition"
+    region: "UK/US"
+    language: "English"
+    tags: [us, world]
+    source_type: editorial
+    url: "https://www.theguardian.com/world/usa/rss"
+
+  - outlet: "France 24"
+    name: "France 24 – English (World)"
+    region: "France/global"
+    language: "English"
+    tags: [world]
+    source_type: editorial
+    url: "https://www.france24.com/en/rss"
+
+  # ── Asia & Middle East ─────────────────────────────────────────────────────
+
+  - outlet: "South China Morning Post"
+    name: "South China Morning Post – World/Asia"
+    region: "Hong Kong/Asia"
+    language: "English"
+    tags: [asia, world]
+    source_type: editorial
+    url: "https://www.scmp.com/rss/91/feed"
+
+  - outlet: "The Diplomat"
+    name: "The Diplomat – Asia-Pacific"
+    region: "Asia-Pacific"
+    language: "English"
+    tags: [asia, politics]
+    source_type: editorial
+    url: "https://thediplomat.com/feed/"
+
+  - outlet: "Yonhap News"
+    name: "Yonhap News – English"
+    region: "South Korea"
+    language: "English"
+    tags: [asia]
+    source_type: editorial
+    url: "https://en.yna.co.kr/RSS/news.xml"
+
+  - outlet: "The Japan Times"
+    name: "The Japan Times – News"
+    region: "Japan"
+    language: "English"
+    tags: [asia]
+    source_type: editorial
+    url: "https://www.japantimes.co.jp/feed/"
+
+  - outlet: "Al Jazeera"
+    name: "Al Jazeera English – All News"
+    region: "Middle East/global"
+    language: "English"
+    tags: [world]
+    source_type: editorial
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
+
+  # ── Africa ─────────────────────────────────────────────────────────────────
+
+  - outlet: "AllAfrica"
+    name: "AllAfrica – Latest Headlines"
+    region: "Pan-Africa"
+    language: "English"
+    tags: [africa]
+    source_type: editorial
+    url: "http://allafrica.com/tools/headlines/rdf/latest/headlines.rdf"
+
+  - outlet: "Daily Maverick"
+    name: "Daily Maverick"
+    region: "South Africa/Africa"
+    language: "English"
+    tags: [africa]
+    source_type: editorial
+    url: "https://www.dailymaverick.co.za/dmrss/"
+
+  - outlet: "IOL"
+    name: "IOL – News"
+    region: "South Africa/Africa"
+    language: "English"
+    tags: [africa]
+    source_type: editorial
+    url: "https://rss.iol.io/iol/news"
+
+  - outlet: "Moneyweb"
+    name: "Moneyweb – Business"
+    region: "South Africa"
+    language: "English"
+    tags: [africa, business]
+    source_type: editorial
+    url: "https://www.moneyweb.co.za/feed/"
+
+  # ── Latin America & Caribbean ──────────────────────────────────────────────
+
+  - outlet: "Latin America Reports"
+    name: "Latin America Reports"
+    region: "Latin America"
+    language: "English"
+    tags: [americas]
+    source_type: editorial
+    url: "https://latinamericareports.com/feed"
+
+  - outlet: "News Americas Now"
+    name: "News Americas Now – Main"
+    region: "Caribbean/Latin America"
+    language: "English"
+    tags: [americas]
+    source_type: editorial
+    url: "https://www.newsamericasnow.com/feed/"
+
+  - outlet: "MercoPress"
+    name: "MercoPress – International"
+    region: "South Atlantic/South America"
+    language: "English"
+    tags: [americas, world]
+    source_type: editorial
+    url: "https://en.mercopress.com/rss/international"
+
+  # ── Global & Investigative ─────────────────────────────────────────────────
+
+  - outlet: "ICIJ"
+    name: "ICIJ – Projects"
+    region: "Global"
+    language: "English"
+    tags: [investigative, world]
+    source_type: editorial
+    url: "https://www.icij.org/feeds/rss/projects.xml"
+
+  - outlet: "Defense News"
+    name: "Defense News"
+    region: "Global"
+    language: "English"
+    tags: [defense, world]
+    source_type: editorial
+    url: "https://www.defensenews.com/arc/outboundfeeds/rss/"
+
+  # ── Economics & Monetary Policy ────────────────────────────────────────────
+
+  - outlet: "BIS"
+    name: "BIS – Press Releases"
+    region: "Global"
+    language: "English"
+    tags: [economics]
+    source_type: primary
+    url: "https://www.bis.org/doclist/all_pressrels.rss"
+
+  - outlet: "BIS"
+    name: "BIS – Central Bankers' Speeches"
+    region: "Global"
+    language: "English"
+    tags: [economics]
+    source_type: primary
+    url: "https://www.bis.org/doclist/cbspeeches.rss"
+
+  - outlet: "BIS"
+    name: "BIS – Research Papers"
+    region: "Global"
+    language: "English"
+    tags: [economics]
+    source_type: primary
+    url: "https://www.bis.org/doclist/bis_fsi_publs.rss"
+
+  - outlet: "BIS"
+    name: "BIS – Statistical Releases"
+    region: "Global"
+    language: "English"
+    tags: [economics]
+    source_type: primary
+    url: "https://www.bis.org/doclist/all_statistics.rss"
+
+  - outlet: "Federal Reserve Board"
+    name: "Federal Reserve – All Press Releases"
+    region: "US"
+    language: "English"
+    tags: [economics, us]
+    source_type: primary
+    url: "https://www.federalreserve.gov/feeds/press_all.xml"
+
+  - outlet: "Federal Reserve Board"
+    name: "Federal Reserve – Monetary Policy"
+    region: "US"
+    language: "English"
+    tags: [economics, us]
+    source_type: primary
+    url: "https://www.federalreserve.gov/feeds/press_monetary.xml"
+
+  - outlet: "Federal Reserve Board"
+    name: "Federal Reserve – FEDS Working Papers"
+    region: "US"
+    language: "English"
+    tags: [economics]
+    source_type: primary
+    url: "https://www.federalreserve.gov/feeds/feds.xml"
+
+  - outlet: "ECB"
+    name: "ECB – Press Releases & Speeches"
+    region: "Europe"
+    language: "English"
+    tags: [economics, europe]
+    source_type: primary
+    url: "https://www.ecb.europa.eu/rss/press.html"
+
+  - outlet: "ECB"
+    name: "ECB – Statistical Press Releases"
+    region: "Europe"
+    language: "English"
+    tags: [economics, europe]
+    source_type: primary
+    url: "https://www.ecb.europa.eu/rss/statpress.html"
+
+  - outlet: "FSB"
+    name: "FSB – Main Feed"
+    region: "Global"
+    language: "English"
+    tags: [economics]
+    source_type: primary
+    url: "https://www.fsb.org/feed/"
+
+  - outlet: "Bank of Japan"
+    name: "Bank of Japan – English News"
+    region: "Japan"
+    language: "English"
+    tags: [economics, asia]
+    source_type: primary
+    url: "http://www.boj.or.jp/en/rss/whatsnew.xml"
+
+  - outlet: "Reserve Bank of Australia"
+    name: "RBA – Media Releases"
+    region: "Asia-Pacific"
+    language: "English"
+    tags: [economics]
+    source_type: primary
+    url: "http://www.rba.gov.au/rss/rss-cb-media-releases.xml"
+
+  - outlet: "Bank of Canada"
+    name: "Bank of Canada – Press Releases"
+    region: "Canada"
+    language: "English"
+    tags: [economics, americas]
+    source_type: primary
+    url: "http://www.bankofcanada.ca/content_type/press-releases/feed"
+
+  - outlet: "CEPR"
+    name: "CEPR – VoxEU"
+    region: "Europe/Global"
+    language: "English"
+    tags: [economics]
+    source_type: editorial
+    url: "https://cepr.org/rss/vox-content"

@@ -1,0 +1,22 @@
+[project]
+name = "corroborate"
+version = "0.1.0"
+description = "Corroborated news brief pipeline: claims confirmed by 3+ independent outlets, separated from editorial framing."
+readme = "README.md"
+license = "LGPL-2.1-only"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+    "feedparser==6.0.12",
+    "httpx==0.28.1",
+    "numpy==2.4.6",
+    "scikit-learn==1.9.0",
+    "nltk==3.9.4",
+    "trafilatura==2.0.0",
+    "PyYAML==6.0.3",
+    "python-dotenv==1.2.2",
+]
+
+[tool.uv]
+# Run from the repo as `uv run python -m corroborate`; nothing to build or install.
+package = false
